@@ -1,16 +1,4 @@
-package main
-
-import "fmt"
-
-func main(){
-	target := [4][]int{
-		{1,2,8,9},
-		{2,4,9,12},
-		{4,7,10,13},
-		{6,8,11,15},
-	}
-	fmt.Println(Find(target[0:4],16))
-}
+package just_to_offer
 
 //在有规律的二维数组中查找指定的值是否存在
 func Find(target [][]int, wantNumber int) bool {
